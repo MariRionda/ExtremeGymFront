@@ -3,8 +3,8 @@ import React from "react";
 import swal from "sweetalert";
 import emailjs from 'emailjs-com';
 import Navbar from "../../Components/Navbar/Navbar";
-import style from './Contact.module.scss'
-import ButtonRedes from "../../Components/Buttons/Button_redes/Button_redes";
+import style from './Contact.module.scss';
+import ButtonNetworks from "../../Components/Buttons/Button_Networks/Button_Networks";
 
 const Contact = ()=>{
 
@@ -58,21 +58,18 @@ const Contact = ()=>{
                         <div><p className={style.coment}>📱 +54 9 387 683-3158</p></div>
                         <div className={style.links}>
                             <a href="https://wa.me/+5493876833158" >
-                                <ButtonRedes
+                                <ButtonNetworks
                                     img={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/640px-WhatsApp_icon.png"}
-                                    text={"WhatsApp"}
                                 />
                             </a>
                             <a href="https://www.instagram.com/extremegym.salta/" >
-                                <ButtonRedes
+                                <ButtonNetworks
                                     img={"https://i0.wp.com/eltallerdehector.com/wp-content/uploads/2022/06/033fd-logo-instagram-icon.png?fit=512%2C512&ssl=1"}
-                                    text={"Instagram"}
                                 />
                             </a>
                             <a href="https://www.facebook.com/extremegym08" >
-                                <ButtonRedes
+                                <ButtonNetworks
                                     img={"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/2048px-Facebook_f_logo_%282019%29.svg.png"}
-                                    text={"Facebook"}
                                 />
                             </a>
                         </div>
